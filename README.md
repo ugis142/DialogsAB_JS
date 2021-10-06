@@ -1,2 +1,2 @@
 # DialogsAB_JS
-DialogsAB JavaScript kursa pierakstu klade
+DialogsAB JavaScript kursa elektroniskā klade
