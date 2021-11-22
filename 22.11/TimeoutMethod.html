@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Testi</h2>
+<p>JavaScript setTimeout Demo</p>
+<button onclick="showAlert();">Show</button>
+<button onclick="cancelAlert();">Cancel</button>
+<script>
+
+var timeoutID;
+
+function showAlert() {
+    timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!');
+}
+
+function clearAlert() {
+    clearTimeout(timeoutID);
+}
+
+ </script>
+
+</body>
+
+</html>
