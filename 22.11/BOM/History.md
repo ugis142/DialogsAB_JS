@@ -1,4 +1,4 @@
-# History
+#### History
 - When you launch the web browser and open a new webpage, the web browser creates a new entry in its history stack.
 
 If you navigate to another webpage, the web browser also creates a new entry in the history stack.
