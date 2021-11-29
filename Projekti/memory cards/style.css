@@ -5,7 +5,16 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(178, 221, 77);
+  background-image: url('https://images.unsplash.com/photo-1587242504703-a62c58b66559?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,8 +38,8 @@ h1 button {
 
 .btn {
   cursor: pointer;
-  background-color: #fff;
-  border: 1px solid #aaa;
+  background-color: rgb(245, 190, 39);
+  border: 1px solid rgb(224, 32, 32);
   border-radius: 3px;
   font-size: 14px;
   margin-top: 20px;
@@ -38,7 +47,7 @@ h1 button {
 }
 
 .btn-small {
-  font-size: 12px;
+  font-size: 16px;
   padding: 5px 10px;
 }
 
@@ -59,6 +68,7 @@ h1 button {
   height: 300px;
   width: 500px;
   max-width: 100%;
+  color: rgb(153, 230, 77);
 }
 
 .card {
@@ -71,6 +81,7 @@ h1 button {
   width: 100%;
   transform: translateX(50%) rotateY(-10deg);
   transition: transform 0.4s ease, opacity 0.4s ease;
+  color: rgb(22, 53, 24);
 }
 
 .card.active {
@@ -98,7 +109,19 @@ h1 button {
   transform: rotateX(180deg);
 }
 
-.inner-card-front,
+.inner-card-front {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://media.istockphoto.com/photos/bigeyed-naughty-obese-cat-looking-at-the-target-british-sort-hair-cat-picture-id1154980185?b=1&k=20&m=1154980185&s=170667a&w=0&h=RtGz6eTrnhreAkFES2i_0yu5NhIssD-A6ST2kgOLH6I=');
+}
+
 .inner-card-back {
   backface-visibility: hidden;
   position: absolute;
@@ -109,7 +132,7 @@ h1 button {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background: #fff;
+  background-image: url('https://media.istockphoto.com/photos/crazy-funny-background-picture-id1219281579?b=1&k=20&m=1219281579&s=170667a&w=0&h=eyfrpLopstGEJQOiZTbt3ChFJSjsfITM1lqKNS-H0aY=');
 }
 
 .inner-card-front {
@@ -123,14 +146,14 @@ h1 button {
 
 .inner-card-front::after,
 .inner-card-back::after {
-  content: '\f021  Flip';
+  content: '\f021  Apgriezt';
   font-family: 'Font Awesome 5 Free', Lato, sans-serif;
   position: absolute;
   top: 10px;
   right: 10px;
   font-weight: bold;
   font-size: 16px;
-  color: #ddd;
+  color: rgb(221, 221, 221);
 }
 
 .navigation {
@@ -139,7 +162,7 @@ h1 button {
 }
 
 .navigation .nav-button {
-  border: none;
+  border: black;
   background-color: transparent;
   cursor: pointer;
   font-size: 16px;
@@ -152,7 +175,14 @@ h1 button {
 .add-container {
   opacity: 0;
   z-index: -1;
-  background-color: #f0f0f0;
+  background-image: url('https://image.freepik.com/free-photo/man-holds-two-colorful-macaw-parrots-his-arm_1304-5409.jpg');
+  background-repeat: no repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   border-top: 2px solid #eee;
   display: flex;
   flex-direction: column;
@@ -181,7 +211,7 @@ h1 button {
 }
 
 .form-group textarea {
-  border: 1px solid #aaa;
+  border: 1px solid rgb(185, 102, 102);
   border-radius: 3px;
   font-size: 16px;
   padding: 12px;
