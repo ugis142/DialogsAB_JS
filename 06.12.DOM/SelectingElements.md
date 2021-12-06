@@ -2,7 +2,7 @@
 
 - getElementById() – select an element by id.
 An HTML element often has an id attribute like this:
-<div id="root"></div>
+< div id="root"></ div>
 
 The id is used to uniquely identify an HTML element within the document. By rules, the id root is unique within the document; no other elements can have this root id.
 
@@ -21,21 +21,21 @@ As mentioned earlier, id is unique within a document. However, HTML is a forgivi
 
 #### JavaScript getElementById() method example
 
-- <html>
-    <head>
-        <title>JavaScript getElementById() Method</title>
-    </head>
-    <body>
-        <p id="message">A paragraph</p>
-    </body>
-</html>
+- < html>
+    < head>
+        < title>JavaScript getElementById() Method</ title>
+    < /head>
+    < body>
+        < p id="message">A paragraph< /p>
+    < /body>
+< /html>
 
-- The document contains a <p> element that has the id attribute with the value message:
+- The document contains a < p> element that has the id attribute with the value message:
 
 const p = document.getElementById('message');
 console.log(p);
 
-output: <p id="message">A paragraph</p>
+output: < p id="message">A paragraph< /p>
 
 Once you selected an element, you can add styles to the element, manipulate its attributes, and traversing to parent and child elements.
 
