@@ -29,7 +29,9 @@ Each document can have only one document element. In an HTML document, the docum
 - Each node in the DOM tree is identified by a node type. JavaScript uses integer numbers to determine the node types.
 
                 value
+                
 Node.ELEMENT_NODE	1	An Element node like <p> or <div>.
+
 
 Node.TEXT_NODE	3	The actual Text inside an Element or Attr.
 
