@@ -29,21 +29,21 @@ Each document can have only one document element. In an HTML document, the docum
 - Each node in the DOM tree is identified by a node type. JavaScript uses integer numbers to determine the node types.
 
                 value
-                
-Node.ELEMENT_NODE	1	An Element node like <p> or <div>.
+
+Node.ELEMENT_NODE	1	An Element node like < p> or < div>.
 
 
 Node.TEXT_NODE	3	The actual Text inside an Element or Attr.
 
 Node.CDATA_SECTION_NODE	4	A CDATASection, such as <!CDATA[[ … ]]>.
 
-Node.PROCESSING_INSTRUCTION_NODE	7	A ProcessingInstruction of an XML document, such as <?xml-stylesheet … ?>.
+Node.PROCESSING_INSTRUCTION_NODE	7	A ProcessingInstruction of an XML document, such as  < ?xml-stylesheet … ? > 
 
 Node.COMMENT_NODE	8	A Comment node, such as <!-- … -->.
 
 Node.DOCUMENT_NODE	9	A Document node.
 
-Node.DOCUMENT_TYPE_NODE	10	A DocumentType node, such as <!DOCTYPE html>.
+Node.DOCUMENT_TYPE_NODE	10	A DocumentType node, such as < !DOCTYPE html >.
 
 Node.DOCUMENT_FRAGMENT_NODE	11	A DocumentFragment node.
 
@@ -64,14 +64,14 @@ The values of these properites depends on the node type. For example, if the nod
 For this reason, it’s better to test node type before using these properties:
 
 if (node.nodeType == Node.ELEMENT_NODE) {
-    let name = node.nodeName; // tag name like <p>
+    let name = node.nodeName; // tag name like < p>
 }
 
 #### Node and Element
 
 - Sometime, it’s easy to confuse between the Node and the Element.
 
-A node is a generic name of any object in the DOM tree. It can be any built-in DOM element such as the document. Or it can be any HTML tag specified in the HTML document like <div> or <p>. 
+A node is a generic name of any object in the DOM tree. It can be any built-in DOM element such as the document. Or it can be any HTML tag specified in the HTML document like < div> or < p>. 
 
 An element is a node with a specific node type Node.ELEMENT_NODE, which is equal to 1.
 
@@ -87,9 +87,9 @@ https://www.javascripttutorial.net/wp-content/uploads/2020/01/Document-Object-Mo
 
 - Any node has relationships to other nodes in the DOM tree. The relationships are the same as the one described in a traditional family tree.
 
-For example, <body> is a child node of the <html> node, and <html> is the parent of the <body> node.
+For example, < body> is a child node of the < html> node, and < html> is the parent of the < body> node.
 
-The <body> node is the sibling of the <head> node because they share the same immediate parent, which is the <html> element.
+The < body> node is the sibling of the < head> node because they share the same immediate parent, which is the < html> element.
 
 The following picture illustrates the relationships between nodes:
 
