@@ -1,6 +1,6 @@
 #### Selecting elements
 
-- getElementById() – select an element by id.
+#### getElementById() – select an element by id.
 An HTML element often has an id attribute like this:
 < div id="root"></ div>
 
