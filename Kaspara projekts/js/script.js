@@ -1,6 +1,6 @@
 import { renderData } from "./ui.mjs";
 //To make it work you will need your own API key get it from https://openweathermap.org/
-const apiKey = `YOUR_API_KEY_HERE`;
+const apiKey = `f1ba16f1e0145b3fd837f91f7cb36db1`;
 const inputField = document.querySelector(`#city`);
 const btnForm = document.querySelector(`#btn-form`);
 const cityNames = document.querySelector(`#cityName`);
