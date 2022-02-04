@@ -1,15 +1,9 @@
 /*
 
-Theme Name: Fitness
-Author: designstub
-Author URI: http://www.designstub.com
-*/
 
 
 
-/*--------------
- * Table of Contents
---------------*/
+
 
 /*-----------------
 1. Reset.css
@@ -641,21 +635,6 @@ font-family: Arial;
 	color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* ------------ Signup Hero Section ------------ */
-
-
-
-
 /*-------------------------------------------------------
 ---------------- Slider Section Styling -----------------
 --------------------------------------------------------*/
@@ -893,24 +872,6 @@ font-family: Arial;
 	margin: 50px 0 0 0;
 }
 
-
-
-/* ----- Client Sectiion Styling ----- */
-
-.client-section {
-	background-color: #00aeda;
-	padding: 5px 0 0 0;
-}
-
-.clients .single {
-	padding: 25px 0 25px 0;
-}
-
-.clients .single img {
-	-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-		opacity: 0.6;
-}
 
 
 /*----------------------------------------------------
@@ -1528,9 +1489,6 @@ font-size: 12px;
 	}
 
 
-	.signup .hero-content h1 {
-		font-size: 48px;
-	}
 
 	.features .features-list {
 		padding: 100px 0 0 0;
